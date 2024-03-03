@@ -1,4 +1,5 @@
 const fs = require("fs")
+const { Circle, Triangle, Square } = require("./lib/shapes");
 const inquirer = require("inquirer")
 
 const generateSvg = ({})
