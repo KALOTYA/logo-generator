@@ -22,19 +22,21 @@ The Logo Generator project is a powerful tool designed to simplify the process o
 - **Command-line Interface**: 
     - Provides a user-friendly command-line interface for easy interaction.
 - **Dynamic Input**: 
-    - Prompts users to input project details such as title, description, installation instructions, usage guidelines, etc
+    - Prompts users to input 3 charecter text, text color, shapes, shape color, etc.
 - **Templates**: 
     - Offers predefined templates to suit their project's needs.
-- **Markdown Support**: 
-    - Supports Markdown formatting for enhanced readability and presentation of project information.
-- **File Generation**: 
-    - Automatically generates a README file based on the provided input and chosen template.
+- **SVG Support**: 
+    - Supports SVG formatting for enhanced readability and presentation of project requirements.
+- **Export Options**: 
+    - Export logos in SVG format for easy integration into websites, applications, and other digital platforms.
 - **Error Handling**: 
     - Implements robust error handling to gracefully manage unexpected inputs or errors during the generation process.
 - **Dependency Management**: 
     - Utilizes Node.js package management for easy installation and maintenance of project dependencies.
-- **Extensibility**:
-    - Designed with a modular architecture to facilitate future enhancements and additions of new features.
+- **Versatility**:
+    - Suitable for a wide range of projects, including websites, mobile apps, branding materials, and more.
+- **Cost-Effective**:
+    - Eliminate the need to hire a graphic designer, saving on expenses associated with logo design.
 
 ## Installation
 
