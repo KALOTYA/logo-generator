@@ -1,7 +1,9 @@
+//Requiring all nessesary files
 const fs = require("fs");
 const { Circle, Triangle, Square } = require("./lib/shapes");
 const inquirer = require("inquirer");
 
+//Using inquirer to prompt the user for all the logo criteria 
 inquirer
   .prompt([
     {
@@ -27,6 +29,7 @@ inquirer
         "What color do you want this shape to be? (this will be different from the text color!)",
     },
   ])
+  //using a .then function to make sure the users selected shape is generated
   .then((response) => {
     let shape;
     if (response.shape === "circle") {
@@ -50,6 +53,7 @@ inquirer
         response.shapeColor
       );
     }
+    //using a writefile function to generate a svg of the logo.
     fs.writeFile("logo.svg", shape.render(), (err) =>
       err
         ? console.log(err)
