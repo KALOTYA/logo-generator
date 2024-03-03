@@ -50,7 +50,7 @@ inquirer
         response.shapeColor
       );
     }
-    fs.writeFile("logo.svg", shape, (err) =>
+    fs.writeFile("logo.svg", shape.render(), (err) =>
       err
         ? console.log(err)
         : console.log("Initialization of Logo Generation is Complete. <3")
