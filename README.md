@@ -38,15 +38,15 @@ The Logo Generator project is a powerful tool designed to simplify the process o
 
 ## Installation
 
-To use the README Generator, follow these steps:
+To use the Logo Generator, follow these steps:
 
 1. **Clone the Repository**: Clone the README Generator repository to your local machine using Git.
    ```bash
-   git clone https://github.com/yourusername/readme-generator.git
+   git clone https://github.com/yourusername/logo-generator.git
    ```
-2. **Navigate to the Project Directory**: Change your current directory to the README Generator project directory.
+2. **Navigate to the Project Directory**: Change your current directory to the Logo Generator project directory.
     ```bash
-    cd readme-generator
+    cd logo-generator
     ```
 3. **Verify npm Installation**: If Node.js is installed, this command will display its version number. If not, you need to install Node.js from the official website.
     ```bash
@@ -60,26 +60,26 @@ To use the README Generator, follow these steps:
     ```bash
     npm ls inquirer
     ```
-Once you've completed these steps, you're all set up to use the README Generator for your projects!
+Once you've completed these steps, you're all set up to use the Logo Generator for your Web Development projects!
 
 ## Usage
 
-1. **Navigate to the Project Directory**: Change your current directory to the README Generator project directory.
+1. **Navigate to the Project Directory**: Change your current directory to the Logo Generator project directory.
     ```bash
-    cd readme-generator
+    cd logo-generator
     ```
 2. **Run the Application**: Execute the application by running the following command and follow the prompts to provide project information.
     ```bash
     node index.js
     ```
-3. **Generated README**: Once you have completed the input process, the application will generate a README file in the project directory based on the provided information.
-4. **Verify**: Verify the README.md file for your project was created. Navigate to the directory and look for the README.md file. 
+3. **Generated Logo**: Once you have completed the input process, the application will generate a logo.svg file in the project directory based on the provided information.
+4. **Verify**: Verify the logo.svg file for your project was created. Navigate to the directory and look for the logo.svg file. 
 
-Now you're all set up to start using the README Generator for all your projects!
+Now you're all set up to start using the Logo Generator for all your projects!
 
 ## Contributing
 
-Thank you for your interest in contributing to the README Generator project. At this time, we are not accepting contributions.
+Thank you for your interest in contributing to the Logo Generator project. At this time, we are not accepting contributions.
 
 We appreciate your understanding and support!
 
@@ -93,7 +93,7 @@ No Tests are available at this time.
 
 ## Questions
 
-If you have any questions or need assistance with the README Generator, feel free to reach out:
+If you have any questions or need assistance with the Logo Generator, feel free to reach out:
 
 - **GitHub Profile**: [Your GitHub Profile](https://github.com/yourusername)
   Please visit my GitHub profile for additional information and projects.
