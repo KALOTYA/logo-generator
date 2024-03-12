@@ -34,21 +34,21 @@ inquirer
     let shape;
     if (response.shape === "circle") {
       shape = new Circle(
-        response.logotext,
+        response.logoText,
         response.textColor,
         response.shapeColor
       );
     }
     if (response.shape === "triangle") {
       shape = new Triangle(
-        response.logotext,
+        response.logoText,
         response.textColor,
         response.shapeColor
       );
     }
     if (response.shape === "square") {
       shape = new Square(
-        response.logotext,
+        response.logoText,
         response.textColor,
         response.shapeColor
       );
