@@ -79,6 +79,8 @@ Once you've completed these steps, you're all set up to use the Logo Generator f
 
 Now you're all set up to start using the Logo Generator for all your projects!
 
+LINK TO VIDEO OF USAGE: https://drive.google.com/file/d/1QGndpPEz0HkKn-2Wwu77I2LrmAW3WfLl/view
+
 ## Contributing
 
 Thank you for your interest in contributing to the Logo Generator project. At this time, we are not accepting contributions.
@@ -91,7 +93,11 @@ This project is proprietary and all rights are reserved. Unauthorized copying, d
 
 ## Tests
 
-No Tests are available at this time.
+Run tests using Jest.
+    ```bash
+        npm run test
+    ```
+
 
 ## Questions
 
